@@ -1,0 +1,4 @@
+/* Self-hosted webfonts (variable fonts): no font CDN is contacted at runtime.
+   Regenerate with: python tools/fetch_fonts.py */
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:100 1000;font-display:swap;src:url('./assets/fonts/dm-sans-latin.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:100 1000;font-display:swap;src:url('./assets/fonts/space-grotesk-latin.woff2') format('woff2');}

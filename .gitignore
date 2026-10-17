@@ -1,0 +1,41 @@
+# Local secrets — never commit. `.env.example` documents the required variables.
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+.vite-temp/
+
+# Local tooling caches
+.npm-cache/
+.pnpm-store/
+__pycache__/
+*.pyc
+
+# Build-time map data inputs and intermediates (rebuild with tools/build_local_map.py).
+# The rendered outputs in public/map, public/map/addresses and public/data ARE committed.
+tools/cache/SanJose.osm.gz
+tools/cache/work/
+tools/cache/build-report.json
+tools/cache/address-stats.json
+tools/cache/acceptance-step3.json
+tools/cache/acceptance-step4.json
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+
+# Local browser profiles and visual-test artifacts
+.chrome-*/
+.shots/
+.checkpoint-backup/
+radar-preview.html
+
+# Local development logs
+*.log
+*.err
